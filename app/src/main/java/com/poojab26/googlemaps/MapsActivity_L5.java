@@ -41,7 +41,8 @@ public class MapsActivity_L5 extends AppCompatActivity implements OnStreetViewPa
 
     @Override
     public void onStreetViewPanoramaReady(StreetViewPanorama streetViewPanorama) {
-        streetViewPanorama.setPosition(new LatLng(36.0579667,-112.1430996));
+        streetViewPanorama.setPosition(new LatLng(37.0579667,-122.1430996));
+        streetViewPanorama.setStreetNamesEnabled ( true );
         StreetViewPanoramaCamera streetViewPanoramaCamera = new StreetViewPanoramaCamera.Builder()
                 .bearing(180)
                 .build ();
