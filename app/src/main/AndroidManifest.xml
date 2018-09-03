@@ -42,6 +42,10 @@
         </activity>
 
         <activity android:name=".MapsActivity_L4">
+
+        </activity>
+
+        <activity android:name=".MapsActivity_L5">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
