@@ -38,6 +38,10 @@
         </activity>
 
         <activity android:name=".MapsActivity_L3">
+
+        </activity>
+
+        <activity android:name=".MapsActivity_L4">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
