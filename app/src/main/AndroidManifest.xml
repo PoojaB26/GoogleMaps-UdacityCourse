@@ -32,6 +32,7 @@
         <activity
             android:name=".MapsActivity_L1"
             android:label="@string/title_activity_maps">
+
         </activity>
         <activity android:name=".MapsActivity_L2">
 
